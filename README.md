@@ -2,4 +2,8 @@
 
 # squid
 
-You need to mount your squid configuration at `/squid.conf`.
+I captured squid and put it in a box for you.
+
+```sh
+docker run -v <your-config-path>:/squid.conf -it stewartpark/squid
+```
